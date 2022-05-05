@@ -3,16 +3,70 @@
 	<head>
 		<title>Data Visualization 📊 by Kevin Lin</title>
 		<link rel="stylesheet" href="style.css" />
-		<script defer src="https://d3js.org/d3.v7.min.js"></script>
-		<script defer src="https://cdn.jsdelivr.net/npm/d3-scale@4"></script>
-		<script defer src="script.js"></script>
+		<script defer src="script.js" type="module"></script>
 	</head>
 
 	<body>
 		<div>
 			<h1>Programming Assignment 1</h1>
-			<svg></svg>
-			<p>My first paragraph.</p>
+			<div id="chart1">
+				<h2>Budget and Revenue of the Movies in the MCU</h2>
+			</div>
+			<div class="text">
+				<p>
+					This is a grouped bar chart showing the production budgets
+					and global box office revenues of all the movies in the
+					Marvel Cinematic Universe. My graph is created using the d3
+					library. The data is from Kaggle.com.
+				</p>
+				<p>
+					The x-axis lists all the movies in the order of which they
+					are released. In each group, there are 2 bars. The blue bars
+					stands for the production budget and the orange ones for
+					global box office revenue. The y-axis shows the amount of
+					money in millions of USD. Only the production budgets and
+					global box office revenue is used as a subset of the data.
+				</p>
+				<p>
+					Clearly, one can see that "Avengers: End Game" has both the
+					most budget and most revenue. Also, the box office revenue
+					varies more that the production budget does. This graph
+					shows the rankings among the movies in the MCU. It also show
+					the difference between revenue and budget for each movie
+					(profit).
+				</p>
+			</div>
+			<h1>Programming Assignment 2</h1>
+			<div id="chart2">
+				<h2>
+					Network of subreddit-to-subreddit hyperlinks extracted from
+					hyperlinks in the title of the post.
+				</h2>
+			</div>
+			<div class="text">
+				<p>
+					This is a grouped bar chart showing the production budgets
+					and global box office revenues of all the movies in the
+					Marvel Cinematic Universe. My graph is created using the d3
+					library. The data is from Kaggle.com.
+				</p>
+				<p>
+					The x-axis lists all the movies in the order of which they
+					are released. In each group, there are 2 bars. The blue bars
+					stands for the production budget and the orange ones for
+					global box office revenue. The y-axis shows the amount of
+					money in millions of USD. Only the production budgets and
+					global box office revenue is used as a subset of the data.
+				</p>
+				<p>
+					Clearly, one can see that "Avengers: End Game" has both the
+					most budget and most revenue. Also, the box office revenue
+					varies more that the production budget does. This graph
+					shows the rankings among the movies in the MCU. It also show
+					the difference between revenue and budget for each movie
+					(profit).
+				</p>
+			</div>
 		</div>
 	</body>
 </html>
